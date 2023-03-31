@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Reader</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Font-Awesome Cdn Link -->
+    <script src="https://kit.fontawesome.com/23582092fc.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: #57C5B6;">
+    <div class="wrapper">
+        <form action="#">
+            <input type="file" hidden>
+            <img src="#" alt="qr-code">
+            <div class="content">
+                <i class="fas fa-cloud-upload"></i>
+                <p>Upload the QR Code to read its content</p>
+            </div>
+        </form>
+        <div class="details">
+            <textarea spellcheck="false" ></textarea>
+            <div class="buttons">
+                <button class="close">Close</button>
+                <button class="copy">Copy Text</button>
+            </div>
+         </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>
